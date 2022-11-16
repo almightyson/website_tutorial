@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    width: 100%;
+}
+
+/*sezione del header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6e3;
+    position: sticky;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: 600; 
+    color: #1a1a1a;
+    transition: 0.3;
+
+}
+.navbar li a:hover,
+.navbar li a.active{
+    color: #088108;
+}
+
+/*sezione corpo*/
+#prom{
+    background-image:url(/hero4.png);
+    background-size: cover;
+    background-position: top 25% right 0;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 0 80px;
+
+}
+#prom button{
+    background-image:url(/button.png);
+    background-color: transparent;
+    border:0;
+    color: #088108;
+    padding: 14px 80px 14px 65px;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+/*sezione dei vantaggi e servizi offerti*/
+#feature{
+    margin: 50px 25px 50px 50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#feature .feabox{
+    width: 180px;
+    border:1px solid  #404040;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.11);
+    margin: 15px 0;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+#feature .feabox:hover{
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.197);
+    cursor: pointer;
+
+}
+#feature .feabox h6{
+    padding:  12px 12px 12px 12px;
+    background-color: #7fda7f;
+    margin: 15px 15px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: #1a421a;
+   
+}
+#feature .feabox:nth-child(2) h6{
+    background-color: #bb73cb;
+}
+/*sezione dei prodotti*/
+#featureProducts{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.pro{
+    height: 300px;
+    width: 220px;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow:20px 20px 20px rgba(46, 46, 46, 0.099);
+    transition: 0.02 ease;
+}
+.pro:hover{
+    box-shadow:20px 20px 20px rgba(46, 46, 46, 0.431);
+
+
+}
+
+.pro img{
+    width: 100%;
+    border-radius: 10px;
+}
+.des{
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+    
+}
+.des span{
+    font-size: 15px;
+    display: ;
+}

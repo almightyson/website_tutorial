@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bookmovie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-color: rgb(156, 158, 159);
+
+
+            }
+            
+            .gridcontainer{
+                display: grid;
+                grid-template-areas: 
+                "websitelogo  websitelogo websitelogo"
+                "navbar       navbar      navbar"
+                "filterbar    filterbar   filterbar"
+                "links      content     ads"
+                "footer       footer      footer";
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                gap: 20px;
+                column-gap: 20px;
+                align-items: center;
+                justify-content: center;
+            }
+            .websitelogo{
+                grid-area: websitelogo;
+                background-color: rgb(130, 191, 191);
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+                
+            }
+            .navbar{
+                grid-area: navbar;
+                background-color:#333;
+            } 
+            .filterbar{
+                grid-area: filterbar;
+                background-color: rgb(198, 77, 190);
+            } 
+            .content{
+                grid-area: content;
+                background-color: rgb(0, 98, 255);
+            } 
+            .footer{
+                grid-area: footer;
+                background-color: rgba(255, 81, 0, 0.842);
+            }
+            .ads{
+                grid-area: ads;
+                background-color: rgba(0, 13, 255, 0.842);
+            
+            }
+            .links{
+                grid-area: links;
+                background-color: rgba(255, 0, 0, 0.842);
+            
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="gridcontainer">
+            <div class="websitelogo">
+                <p>websitelogo</p>
+
+            </div>
+            <div class="navbar">
+                <p>navbar</p>
+
+            </div>
+            <div class="filterbar">
+                <p>filterbar</p>
+
+            </div>
+            <div class="content">
+                <p>content</p>
+
+            </div>
+            <div class="ads">
+                <p>ads</p>
+            </div>
+            <div class="links">
+                <p>links</p>
+            </div>
+            <div class="footer">
+                <p>footer</p>
+
+            </div>
+        </div>
+       
+    </body>
+</html>
